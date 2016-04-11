@@ -1,0 +1,6 @@
+function[phi]=phie(x)
+phi=ones(m+1,1);
+    for i=1:m+1
+        phi(i,1)=x.^i;
+    end
+end
